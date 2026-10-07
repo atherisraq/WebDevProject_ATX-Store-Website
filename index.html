@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATX Store | Instant Gaming Top-Up & Gift Cards</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-announcement">
+    <div class="container announcement-inner">
+      <div class="store-status">
+        <span class="pulse-dot"></span>
+        <span>Customer Support Active: <strong>10:00 AM – 11:00 PM</strong></span>
+      </div>
+      <div class="instant-delivery">
+        <i class="fa-solid fa-bolt"></i> Instant WhatsApp Delivery
+      </div>
+    </div>
+  </aside>
+
+  <!-- Header & Navigation -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-accent">ATX</span> STORE
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <!-- Valorant Menu -->
+          <li class="nav-item dropdown">
+            <a href="#valorant" class="nav-link active">
+              Valorant <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#valorant">Global Region <span class="tag-badge">Popular</span></a></li>
+            </ul>
+          </li>
+
+          <!-- Gift Cards Menu -->
+          <li class="nav-item dropdown">
+            <a href="#giftcards" class="nav-link">
+              Gift Cards <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#giftcards"><i class="fa-brands fa-amazon"></i> Amazon Card</a></li>
+              <li><a href="#giftcards"><i class="fa-brands fa-google-play"></i> Google Play</a></li>
+              <li><a href="#giftcards"><i class="fa-brands fa-apple"></i> Apple Store</a></li>
+              <li><a href="#giftcards"><i class="fa-solid fa-music"></i> iTunes Code</a></li>
+            </ul>
+          </li>
+
+          <!-- Steam Menu -->
+          <li class="nav-item dropdown">
+            <a href="#steam" class="nav-link">
+              Steam <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#steam">Bangladesh (BDT)</a></li>
+              <li><a href="#steam">India (INR)</a></li>
+              <li><a href="#steam">Global (USD)</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        <a href="https://wa.me/8801885521005" target="_blank" class="contact-pill-btn">
+          <i class="fa-brands fa-whatsapp"></i> Direct Chat
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main>
+    <!-- Featured Valorant Section (Matched to Your Image) -->
+    <section class="section-topup" id="valorant">
+      <div class="container">
+        
+        <div class="product-purchase-card">
+          <!-- Left Column: Product Banner/Image -->
+          <div class="product-media-col">
+            <div class="sale-badge">SALE</div>
+            <div class="poster-card">
+              <div class="flag-stack">
+                <span class="flag-circle" title="Indonesia">🇮🇩</span>
+                <span class="flag-circle" title="India">🇮🇳</span>
+                <span class="flag-circle" title="Philippines">🇵🇭</span>
+                <span class="flag-circle" title="Bangladesh">🇧🇩</span>
+                <span class="flag-circle" title="Malaysia">🇲🇾</span>
+              </div>
+              <img 
+                src="https://cdn.imgpile.com/f/XQWu7to_wm.webp" 
+                alt="Valorant Global Points Top Up" 
+                class="poster-img"
+              />
+              <div class="poster-overlay">
+                <span class="sub-txt">LOGIN PURCHASE</span>
+                <h3 class="poster-title">GLOBAL</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Configuration -->
+          <div class="product-info-col">
+            <h4 class="option-label">Select Amount</h4>
+            
+            <div class="package-grid">
+              <!-- Available Tiers -->
+              <button class="pkg-btn active" data-name="475 VP Global" data-price="550">
+                475 VP Global
+              </button>
+              <button class="pkg-btn" data-name="1000 VP Global" data-price="1210">
+                1000 VP Global
+              </button>
+              <button class="pkg-btn" data-name="1475 VP Global" data-price="1750">
+                1475 VP Global
+              </button>
+
+              <!-- Extended Display Options (Disabled) -->
+              <button class="pkg-btn disabled" title="Currently Out of Stock">2050 VP Global</button>
+              <button class="pkg-btn disabled" title="Currently Out of Stock">2525 VP Global</button>
+              <button class="pkg-btn disabled" title="Currently Out of Stock">3050 VP Global</button>
+              <button class="pkg-btn disabled" title="Currently Out of Stock">3650 VP Global</button>
+              <button class="pkg-btn disabled" title="Currently Out of Stock">4125 VP Global</button>
+              <button class="pkg-btn disabled" title="Currently Out of Stock">5350 VP Global</button>
+              <button class="pkg-btn disabled" title="Currently Out of Stock">7400 VP Global</button>
+              <button class="pkg-btn disabled" title="Currently Out of Stock">9000 VP Global</button>
+              <button class="pkg-btn disabled" title="Currently Out of Stock">11000 VP Global</button>
+            </div>
+
+            <!-- Price and Quantity Counter -->
+            <div class="pricing-counter-row">
+              <div class="price-display">
+                <span id="unitPriceDisplay">550</span> <span class="currency">BDT</span>
+              </div>
+
+              <div class="quantity-controller">
+                <button type="button" class="qty-btn" id="qtyMinus" aria-label="Decrease">&minus;</button>
+                <span class="qty-number" id="qtyValue">1</span>
+                <button type="button" class="qty-btn" id="qtyPlus" aria-label="Increase">&#43;</button>
+              </div>
+            </div>
+
+            <!-- Direct WhatsApp Order CTA -->
+            <button class="btn-whatsapp-order" id="orderBtn">
+              <i class="fa-brands fa-whatsapp"></i> Buy via WhatsApp
+            </button>
+
+            <!-- Product Notices -->
+            <div class="product-notices">
+              <h2 class="product-title">VALORANT GLOBAL | ANY COUNTRY</h2>
+              <p class="notice-warn">
+                <i class="fa-solid fa-triangle-exclamation"></i> PLEASE READ BEFORE ORDERING!
+              </p>
+              <p class="notice-info">
+                ✅ <strong>Workable Regions:</strong> Any Region (Bangladesh, Malaysia, Philippines, India - ANY).
+              </p>
+              <p class="notice-sub">
+                ⚡ Orders are delivered inside 5 to 15 minutes during active support hours.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Gift Cards Section -->
+    <section class="section-catalog" id="giftcards">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">DIGITAL VOUCHERS</span>
+          <h2 class="section-heading">Official Gift Cards</h2>
+          <p class="section-desc">Instant digital activation codes for your preferred stores</p>
+        </header>
+
+        <div class="cards-grid">
+          <!-- Card 1 -->
+          <article class="card-item">
+            <div class="card-icon-box amazon"><i class="fa-brands fa-amazon"></i></div>
+            <h3 class="card-title">Amazon Gift Card</h3>
+            <p class="card-region">US / Global Region</p>
+            <span class="card-price">From 1,250 BDT</span>
+            <button class="btn-quick-buy" onclick="buyGiftCard('Amazon Gift Card ($10)', '1250 BDT')">
+              Order on WhatsApp
+            </button>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card-item">
+            <div class="card-icon-box google"><i class="fa-brands fa-google-play"></i></div>
+            <h3 class="card-title">Google Play Card</h3>
+            <p class="card-region">US & Global Balance</p>
+            <span class="card-price">From 650 BDT</span>
+            <button class="btn-quick-buy" onclick="buyGiftCard('Google Play Card ($5)', '650 BDT')">
+              Order on WhatsApp
+            </button>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card-item">
+            <div class="card-icon-box apple"><i class="fa-brands fa-apple"></i></div>
+            <h3 class="card-title">Apple Store Card</h3>
+            <p class="card-region">US Region Account</p>
+            <span class="card-price">From 1,350 BDT</span>
+            <button class="btn-quick-buy" onclick="buyGiftCard('Apple Store Card ($10)', '1350 BDT')">
+              Order on WhatsApp
+            </button>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="card-item">
+            <div class="card-icon-box itunes"><i class="fa-solid fa-music"></i></div>
+            <h3 class="card-title">iTunes Code</h3>
+            <p class="card-region">Global & App Store</p>
+            <span class="card-price">From 700 BDT</span>
+            <button class="btn-quick-buy" onclick="buyGiftCard('iTunes Code ($5)', '700 BDT')">
+              Order on WhatsApp
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steam Wallet Section -->
+    <section class="section-catalog bg-alt" id="steam">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">PC GAMING</span>
+          <h2 class="section-heading">Steam Wallet Codes</h2>
+          <p class="section-desc">Top up your Steam wallet quickly for any store region</p>
+        </header>
+
+        <div class="cards-grid">
+          <!-- Steam BD -->
+          <article class="card-item">
+            <div class="card-icon-box steam"><i class="fa-brands fa-steam"></i></div>
+            <h3 class="card-title">Steam Bangladesh</h3>
+            <p class="card-region">BDT Region / Auto Code</p>
+            <span class="card-price">From 600 BDT</span>
+            <button class="btn-quick-buy" onclick="buyGiftCard('Steam Bangladesh (500 BDT)', '600 BDT')">
+              Order on WhatsApp
+            </button>
+          </article>
+
+          <!-- Steam India -->
+          <article class="card-item">
+            <div class="card-icon-box steam"><i class="fa-brands fa-steam"></i></div>
+            <h3 class="card-title">Steam India</h3>
+            <p class="card-region">INR Currency Wallet</p>
+            <span class="card-price">From 450 BDT</span>
+            <button class="btn-quick-buy" onclick="buyGiftCard('Steam India (250 INR)', '450 BDT')">
+              Order on WhatsApp
+            </button>
+          </article>
+
+          <!-- Steam Global -->
+          <article class="card-item">
+            <div class="card-icon-box steam"><i class="fa-brands fa-steam"></i></div>
+            <h3 class="card-title">Steam Global</h3>
+            <p class="card-region">Worldwide Activation</p>
+            <span class="card-price">From 1,280 BDT</span>
+            <button class="btn-quick-buy" onclick="buyGiftCard('Steam Global ($10)', '1280 BDT')">
+              Order on WhatsApp
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h4 class="logo"><span class="logo-accent">ATX</span> STORE</h4>
+        <p>Reliable, instant gaming top-up & gift voucher marketplace.</p>
+        <span class="hours"><i class="fa-regular fa-clock"></i> Active: 10:00 AM – 11:00 PM</span>
+      </div>
+
+      <div class="footer-links-group">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#valorant">Valorant Points</a></li>
+          <li><a href="#giftcards">Gift Cards</a></li>
+          <li><a href="#steam">Steam Wallet</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h5>Contact Us</h5>
+        <p>WhatsApp: +880 1885-521005</p>
+        <p>Payment: bKash / Nagad / Rocket</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 ATX Store. All rights reserved. Valorant & Riot Games are trademarks of Riot Games, Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Logic for Price & WhatsApp Redirection -->
+  <script>
+    // Configuration
+    const WHATSAPP_NUMBER = "+8801885521005"; // REPLACE WITH YOUR ACTUAL WHATSAPP NUMBER
+
+    let selectedPackage = "475 VP Global";
+    let unitPrice = 550;
+    let quantity = 1;
+
+    const unitPriceDisplay = document.getElementById("unitPriceDisplay");
+    const qtyValueDisplay = document.getElementById("qtyValue");
+    const qtyMinusBtn = document.getElementById("qtyMinus");
+    const qtyPlusBtn = document.getElementById("qtyPlus");
+    const orderBtn = document.getElementById("orderBtn");
+    const packageButtons = document.querySelectorAll(".pkg-btn:not(.disabled)");
+
+    function updatePrice() {
+      const total = unitPrice * quantity;
+      unitPriceDisplay.textContent = total.toLocaleString();
+      qtyValueDisplay.textContent = quantity;
+    }
+
+    // Select Package
+    packageButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        packageButtons.forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        selectedPackage = btn.dataset.name;
+        unitPrice = parseInt(btn.dataset.price, 10);
+        updatePrice();
+      });
+    });
+
+    // Quantity Increment/Decrement
+    qtyPlusBtn.addEventListener("click", () => {
+      if (quantity < 10) {
+        quantity++;
+        updatePrice();
+      }
+    });
+
+    qtyMinusBtn.addEventListener("click", () => {
+      if (quantity > 1) {
+        quantity--;
+        updatePrice();
+      }
+    });
+
+    // Order Valorant via WhatsApp
+    orderBtn.addEventListener("click", () => {
+      const totalPrice = unitPrice * quantity;
+      const text = 
+        `Hello ATX Store! 👋%0A%0A` +
+        `I would like to order:%0A` +
+        `• *Item:* ${selectedPackage}%0A` +
+        `• *Quantity:* ${quantity}%0A` +
+        `• *Total Price:* ${totalPrice} BDT%0A%0A` +
+        `Please send me payment details (bKash/Nagad).`;
+      
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
+      window.open(url, "_blank");
+    });
+
+    // Order Generic Gift Card via WhatsApp
+    function buyGiftCard(cardName, price) {
+      const text = 
+        `Hello ATX Store! 👋%0A%0A` +
+        `I would like to purchase:%0A` +
+        `• *Product:* ${cardName}%0A` +
+        `• *Price:* ${price}%0A%0A` +
+        `Please share payment procedure.`;
+      
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
+      window.open(url, "_blank");
+    }
+  </script>
+</body>
+</html>
